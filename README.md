@@ -12,6 +12,6 @@ The model consists of a VotingRegressor with 4 estimators:
   - XGBoost
   - LightGBM
 
-The last one tuned with bayesian optimization (Optuna) and the whole thing got a r2 score of 0.9+.
+The last one tuned with bayesian optimization (Optuna) and the whole thing got a r2 score of almost 0.9.
 
 I'm going to optuna the hell out of the other 3 soon, excited to see how far can it go. Kind of regreting to spent so much time and effort in a dataset that doesn't have a kaggle competition jajajajajaja just kidding, it was really fun to play with! 
