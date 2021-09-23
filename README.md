@@ -1,2 +1,3 @@
 # brazilian_cities_IDHM
-A machine learning application to predict the IDHM of brazilian cities.
+
+An descriptive analysis and machine learning application to predict the IDHM of brazilian cities.
