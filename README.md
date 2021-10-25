@@ -1,10 +1,10 @@
 # brazilian_cities_IDHM
 
-A descriptive analysis and machine learning application to predict the IDHM of brazilian cities based on the following dataset from kaggle:
+A descriptive analysis and machine learning application to predict the IDHM (Municipal Human Development Index) of brazilian cities based on the following dataset from kaggle:
 
 https://www.kaggle.com/crisparada/brazilian-cities
 
-This dataset has numerical and categorical real world data with all kind of funny stuff to be dealt with. This project reaally helped me learn how to build pipelines using only sklearn estimators and transformers. I believe it's a good example of what can be done structuring pipelines with sklearn's Pipeline() and ColumnTransformer() but probably not the most sane approach, I have to admit. Some amount of nested pipelines, might be useful to give begginers some ideas.
+This dataset has numerical and categorical real world data with all kind of funny stuff to be dealt with. This project reaally helped me learn how to build pipelines using only sklearn estimators and transformers. I believe it's a good example of what can be done structuring pipelines with sklearn's Pipeline() and ColumnTransformer() classes but probably not the most sane approach, I have to admit. Some amount of nested pipelines, might be useful to give begginers some ideas.
 
 The model consists of a VotingRegressor with 4 estimators:
   - RandomForest
